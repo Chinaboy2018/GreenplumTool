@@ -35,7 +35,7 @@ def get_args(argv):
 
     for opt, arg in opts:
         if opt in ['--help']:
-            print "python2 distributeTable.py  -f '/home/zch/tmp/distributeTable.sql' -d work -p 5"
+            print "python2 executeSql.py  -f '/home/zch/tmp/distributeTable.sql' -d work -p 5"
             exit(0)
         elif opt in ['-d', '--database']:
             op.DATABASE_NAME = arg
