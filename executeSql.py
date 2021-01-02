@@ -39,7 +39,7 @@ def get_args(argv):
                   "-p 设置并发，默认是4个并发" \
                   "-f 指定SQL文件位置，注意该脚本只能对单行命令进行处理，复杂SQL不支持" \
                   "-d 数据库" \
-                  "命令示例：python2 distributeTable.py  -f '/home/zch/tmp/distributeTable.sql' -d work -p 5"
+                  "命令示例：python2 executeSql.py  -f '/home/zch/tmp/distributeTable.sql' -d work -p 5"
             exit(0)
         elif opt in ['-d', '--database']:
             op.DATABASE_NAME = arg
